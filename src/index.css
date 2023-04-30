@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header nav
+{
+display: flex;
+gap:16px;
+justify-content: end;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+header nav h1{
+  margin-right: auto;
+  border-bottom: 3px solid var (--primary);
+}
+
+header nav a {
+
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+
+}
+
+header nav a.active{
+  background: var(--primary);
+}
+
+main{
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+create-button{
+  margin-right: auto;
+}
+
+create-form{
+  border:1px 1px ;
+  border-color: #ced4da;
+}
+
+error {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: .875em;
+  color: #dc3545;
+}
+
+.react-datepicker-wrapper
+{
+  width: 60% !important;
+}
+
+.container
+{
+  border: 1px;
+  border-style: solid;
+  border-color: #ced4da;
+  border-radius: 4px;
+}
+
+.sex-margin
+{
+  margin-top: 1rem !important;
+}
+
+.category-inline
+{
+  display: inline-block !important;
+  width: 55% !important;
+}
+
+
+
